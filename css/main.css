@@ -588,7 +588,7 @@
   .mision-img {
     max-width: 100%;
     height: auto;
-    padding: 50px;
+    padding: 68px;
   }
 
   .title-our-team h2{
@@ -609,10 +609,14 @@
 
   .arif img {
     margin-top: 15px;
+    max-width: 100%;
+    height: auto;
   }
 
   .iqbal img {
     margin-top: 15px;
+    max-width: 100%;
+    height: auto;
   }
 
   .our-works-title h2 {
