@@ -555,7 +555,7 @@
   .main-img {
     max-width: 100%;
     height: auto;
-    padding: 30px;
+    padding: 50px;
   }
 
   .main-about__description h2{
@@ -588,7 +588,7 @@
   .mision-img {
     max-width: 100%;
     height: auto;
-    padding: 30px;
+    padding: 50px;
   }
 
   .title-our-team h2{
@@ -712,6 +712,17 @@
 
   .to-center {
     text-align: left;
+  }
+
+  #back-to-top {
+    width: 40px;
+    height: 40px;
+    right: 14px;
+  }
+
+  #back-to-top img {
+    right: 26px;
+    bottom: 23px;
   }
   
 }
