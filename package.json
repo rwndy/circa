@@ -1,0 +1,15 @@
+{
+  "name": "circa",
+  "version": "1.0.0",
+  "description": "sebuah penyedia jasa branding dan desain yang fokus pada perkembangan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Circa",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "hover.css": "^2.3.2"
+  }
+}
