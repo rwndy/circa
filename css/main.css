@@ -327,10 +327,20 @@
     color: #fff;
   }
 
+  .arif img {
+    max-width: 100%;
+    height: auto;
+  }
+
   .iqbal h3 {
     font-weight: 500;
     margin-top: 24px;
     color: #fff;
+  }
+
+  .iqbal img {
+    max-width: 100%;
+    height: auto;
   }
 
   .footer-address h5 {
@@ -425,7 +435,13 @@
   .produk-img {
     width: 320px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 15px;
+    transition: all .5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  }
+
+  .produk-img:hover {
+    transform: scale(1.1);
   }
 
   .produk-wrap {
