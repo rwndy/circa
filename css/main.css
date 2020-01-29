@@ -133,7 +133,7 @@
 
 .visi-misi {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   background-color: #343a40;
 }
 
@@ -665,6 +665,9 @@
     height: auto;
   }
 
+  .our-works-title.text-center {
+    margin-bottom: 40px;
+}
   
 
   .produk-img {
@@ -771,6 +774,14 @@
   #back-to-top img {
     right: 26px;
     bottom: 23px;
+  }
+
+  .main-about {
+    padding-top: 30px;
+  }
+
+  .visi-misi {
+    padding-bottom: 25px;
   }
   
 }
