@@ -98,6 +98,7 @@
 .teras-senja img {
   width: 128px;
   height: 128px;
+  border-radius: 65px;
 }
 
 #back-to-top {
@@ -110,14 +111,14 @@
     background-color:#343a40;
     text-indent:-9999px;
     display:none;
-    border: 3px solid #f0bc5e;
-    border-radius: 3px;
+    border: 3px solid #ababab;
+    border-radius: 50px;
 }
 
 #back-to-top img {
-  position:fixed;
-    right:56px;
-    bottom:27px;
+    position: fixed;
+    right: 57px;
+    bottom: 28px;
     width: 16px;
     height: 16px;
 }
@@ -133,18 +134,19 @@
 .visi-misi {
   padding-top: 70px;
   padding-bottom: 70px;
+  background-color: #343a40;
 }
 
 .main-about {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #343a40;
+  background-color: #fff;
 }
 
 .our-team {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #343a40;
+  background-color: #fff;
 }
 
 .our-works {
@@ -153,7 +155,7 @@
 }
 
 .footer {
-  background-color: #f0bc5e;
+  background-color: #343a40;
   padding-top: 59px;
   padding-bottom: 20px;
 }
@@ -183,6 +185,7 @@
 
   .section-title__about h2 {
     font-weight: 600;
+    margin-bottom: 40px;
   }
 
   .section-about__logo {
@@ -281,7 +284,7 @@
   }
 
   .main-about__description p {
-    color: #fff;
+    color: #343a40;
   }
 
   .main-img {
@@ -292,8 +295,16 @@
 
   .section-vision h2, h4 {
     font-weight: 600;
+    color: #fff;
   }
 
+  .section-vision p {
+    color: #fff;
+  }
+
+  .section-mision p {
+    color: #fff;
+  }
 
   .section-vision h2 {
     margin-bottom: 40px;
@@ -314,17 +325,17 @@
   .title-our-team h2{
     font-weight: 600;
     margin-bottom: 46px;
-    color: #fff;
+    color: #343a40;
   }
 
   .our-team p {
-    color: #fff;
+    color: #343a40;
   }
 
   .arif h3 {
     font-weight: 500;
     margin-top: 24px;
-    color: #fff;
+    color: #343a40;
   }
 
   .arif img {
@@ -335,7 +346,7 @@
   .iqbal h3 {
     font-weight: 500;
     margin-top: 24px;
-    color: #fff;
+    color: #343a40;
   }
 
   .iqbal img {
@@ -344,7 +355,7 @@
   }
 
   .footer-address h5 {
-    color: #343a40;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -353,7 +364,7 @@
   }
 
   .address-list li span {
-    color: #343a40;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
   }
@@ -363,7 +374,7 @@
   }
 
   .footer-contact h5 {
-    color: #343a40;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -377,7 +388,7 @@
 
   .contacts-list a {
     text-decoration: none;
-    color: #343a40;
+    color: #fff;
   }
 
   .contacts-list li a span {
@@ -390,7 +401,7 @@
   }
 
   .footer-social h5 {
-    color: #343a40;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -404,7 +415,7 @@
 
   .social-list li a {
     text-decoration: none;
-    color: #343a40;
+    color: #fff;
   }
 
   .social-list li a span {
@@ -423,13 +434,13 @@
   }
 
   .footer-center p {
-    color: #343a40;
+    color: #fff;
     font-size: 15px;
   }
 
   .footer-center p a {
     text-decoration: none;
-    color: #343a40;
+    color: #fff;
   }
 
   .produk-img {
@@ -483,7 +494,7 @@
     margin-bottom: 30px;
   }
 
-  .section-title__about {
+  .section-title__about{
     margin-bottom: 20px;
   }
 
@@ -581,19 +592,29 @@
   }
 
  .main-about p {
-   color: #fff;
+   color: #343a40;
  }
 
- .section-vision h4 {
+ .section-vision h2, h4 {
   font-weight: 600;
   font-size: 27px;
   margin-top: 20px;
+  color: #fff;
+ }
+
+ .section-vision p {
+   color: #fff;
  }
 
   .section-mision h4{
     font-weight: 600;
     font-size: 27px;
     margin-top: 20px;
+    color: #fff;
+  }
+
+  .section-mision p {
+    color: #fff;
   }
 
   .mision-img {
@@ -606,23 +627,23 @@
     font-size: 27px;
     font-weight: 600;
     margin-bottom: 23px;
-    color: #fff;
+    color: #343a40;
   }
 
   .our-team p {
-    color: #fff;
+    color: #343a40;
   }
 
   .arif h3 {
     font-weight: 500;
     margin-top: 17px;
-    color: #fff;
+    color: #343a40;
   }
 
   .iqbal h3 {
     font-weight: 500;
     margin-top: 17px;
-    color: #fff;
+    color: #343a40;
   }
 
   .arif img {
@@ -648,7 +669,7 @@
   }
 
   .footer-address h5 {
-    color: #343a40;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -657,7 +678,7 @@
   }
 
   .address-list li span {
-    color: #343a40;
+    color: #fff;
     font-size: 18px;
   }
 
@@ -666,7 +687,7 @@
   }
 
   .footer-contact h5 {
-    color: #343a40;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -680,7 +701,7 @@
 
   .contacts-list a {
     text-decoration: none;
-    color: #343a40;
+    color: #fff;
   }
 
   .contacts-list li a span {
@@ -692,7 +713,7 @@
   }
 
   .footer-social h5 {
-    color: #343a40;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -706,7 +727,7 @@
 
   .social-list li a {
     text-decoration: none;
-    color: #343a40;
+    color: #fff;
   }
 
   .social-list li a span {
@@ -723,13 +744,13 @@
   }
 
   .footer-center p {
-    color: #343a40;
+    color: #fff;
     font-size: 12px;
   }
 
   .footer-center p a {
     text-decoration: none;
-    color: #343a40;
+    color: #fff;
   }
 
   .to-center {
