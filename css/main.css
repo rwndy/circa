@@ -81,8 +81,8 @@
 
 .our-clients {
   background-color: #343a40;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .our-clients-title h2 {
@@ -132,20 +132,20 @@
 }
 
 .visi-misi {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #343a40;
 }
 
 .main-about {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #fff;
 }
 
 .our-team {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #fff;
 }
 
@@ -153,6 +153,8 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+
 
 .footer {
   background-color: #343a40;
@@ -328,6 +330,10 @@
     color: #343a40;
   }
 
+  .our-works-title {
+    margin-bottom: 50px;
+  }
+
   .our-team p {
     color: #343a40;
   }
@@ -446,7 +452,8 @@
   .produk-img {
     width: 320px;
     height: auto;
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     transition: all .5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
   }
@@ -658,9 +665,7 @@
     height: auto;
   }
 
-  .our-works-title h2 {
-    margin-bottom: 18px;
-  }
+  
 
   .produk-img {
     max-width: 100%;
